@@ -3,6 +3,31 @@ body{
     color: rgb(170, 169, 202);
     font-family: Calibre, Inter, "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
     margin:0;
+    height: 100%;
+}
+
+.sideBar{
+    display: flex;
+    position: fixed;  
+    width: 100px;
+    margin-left: 50px;
+    height : 100%;
+}
+
+.sideBar ul{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 75px;
+}
+
+.sideBar li{
+    color: white;
+    list-style: none;
+    margin-bottom: 75px;
+}
+
+.sideBar a:visited{
+    color: white;
 }
 
 .container{
@@ -178,6 +203,11 @@ a:hover{
 .hobbies{
     margin-top: 400px;
 }
+
+
+  
+
+
 /*
 .main-intro{
     width: 80%;
