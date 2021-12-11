@@ -277,6 +277,16 @@ a:hover{
     margin-bottom: 70px;
 }
 
+#scrollAbt{
+    position: absolute;
+    top: 800px;
+}
+
+#scrollContact{
+    position: absolute;
+    top: 3300px;
+}
+
 /*
 .main-intro{
     width: 80%;
