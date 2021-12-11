@@ -6,6 +6,10 @@ body{
     height: 100%;
 }
 
+.container{
+    width: 90%;
+}
+
 .sideBar{
     display: flex;
     position: fixed;  
@@ -28,10 +32,6 @@ body{
 
 .sideBar a:visited{
     color: white;
-}
-
-.container{
-    width: 90%;
 }
 
 .navbar ul{
@@ -200,13 +200,82 @@ a:hover{
 
 
 
-.hobbies{
-    margin-top: 400px;
+.hobbiesHeading{
+    margin: 400px 200px 0px 400px;
+    width: 1300px;
+    color: #ccd6f6;
+    font-family: Calibre, Inter, "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 90px;
+    display: flex;
+    justify-content: flex-end;
 }
 
+.hobbies{
+    display: flex;
+    width: 1300px;
+    margin: 0px 200px 400px 400px;
+}
 
-  
+.hobbiesP{
+    flex: 0.7;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 50px;
+    margin-right:-150px;
+}  
 
+.naruto{
+    flex: 1;
+}
+
+.momota{
+    flex: 1;
+    position: absolute;
+    right: 1150px;
+    bottom:-1375px;    
+}
+
+.keyboard{
+    flex: 1;
+    position: absolute;
+    right: 940px;  
+}
+
+.naruto img{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.momota img{
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+}
+.keyboard img{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.contact{
+    width: 80%;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 600px;
+    margin-left: 300px;
+    margin-right: 40px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+
+    color: #8892b0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
 
 /*
 .main-intro{
