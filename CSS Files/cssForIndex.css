@@ -154,8 +154,8 @@ a:hover{
 
 .square{
     position: absolute;
-    top:1155px;
-    right:380px;
+    top:1125px;
+    right:300px;
     height: 275px;
     width: 277px;
     border: 4px #64ffda solid;
@@ -199,11 +199,9 @@ a:hover{
     position: relative;
 }
 
-
-
 .hobbiesHeading{
     margin: 400px 200px 0px 400px;
-    width: 1300px;
+    width: 1215px;
     color: #ccd6f6;
     font-family: Calibre, Inter, "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
     font-size: 35px;
@@ -215,32 +213,50 @@ a:hover{
 
 .hobbies{
     display: flex;
-    width: 1300px;
-    margin: 0px 200px 400px 400px;
+    /* width: 1300px; */
+    /* margin: 0px 200px 400px 400px; */
+    /* margin-inline: 300px 200px; */
 }
 
 .hobbiesP{
-    flex: 0.7;
+    flex: 2;
     font-size: 20px;
     font-weight: 500;
     line-height: 26px;
-    margin-top: 50px;
-    margin-right:-150px;
+    margin-inline: 100px 150px;
+    margin-top: 0px;
+    /* margin-right:-150px; */
+
 }  
 
-.naruto{
-    flex: 1;
+.hobbiesImg{
+    flex:1;
+    display: flex;
 }
 
+.naruto img{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    transform: translateX(350px);
+}
+
+.momota img{
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    transform: translateX(200px) translateY(-50px);
+}
+
+.keyboard img{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    transform: translateX(50px);
+} 
+
+/* 
 .momota{
-    flex: 1;
     position: absolute;
     right: 1150px;
     bottom:-1375px;    
 }
 
 .keyboard{
-    flex: 1;
     position: absolute;
     right: 940px;  
 }
@@ -253,14 +269,14 @@ a:hover{
 }
 .keyboard img{
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-}
+} */
 
 .contact{
     width: 80%;
     font-size: 20px;
     font-weight: 500;
     line-height: 26px;
-    margin-top: 600px;
+    margin-top: 400px;
     margin-left: 300px;
     margin-right: 40px;
 }
