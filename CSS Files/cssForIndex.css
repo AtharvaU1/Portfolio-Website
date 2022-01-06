@@ -472,6 +472,12 @@ a:hover{
     html{
         font-size: 35%;
     }
+    .navbar ul{
+        margin-right: 0;
+    }
+    .navbar li{
+        margin-right: 4%;
+    }
     .main-intro{
         margin-left: 17%;
     }
