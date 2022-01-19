@@ -446,6 +446,9 @@ a:hover{
     .px16{
         display: flex;
     }
+    .main-intro h1{
+        line-height: 1.5em;
+    }
     .about-me{
         margin-top: 30%;
     }
@@ -479,10 +482,13 @@ a:hover{
         margin-right: 4%;
     }
     .main-intro{
-        margin-left: 17%;
+        margin-left: 14%;
     }
     .main-intro h1{
-        line-height: 1.4em;
+        line-height: 1.1em;
+    }
+    .main-intro :nth-child(1){
+        margin-left: 3%;
     }
     .main-intro :nth-child(3){
         width: 60%;
